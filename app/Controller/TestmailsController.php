@@ -58,30 +58,6 @@ class TestmailsController extends AppController {
 	}
 
 /**
- * edit method
- *
- * @throws NotFoundException
- * @param string $id
- * @return void
- */
-	public function edit($id = null) {
-		if (!$this->Testmail->exists($id)) {
-			throw new NotFoundException(__('Invalid testmail'));
-		}
-		if ($this->request->is(array('post', 'put'))) {
-			if ($this->Testmail->save($this->request->data)) {
-				$this->Flash->success(__('The testmail has been saved.'));
-				return $this->redirect(array('action' => 'index'));
-			} else {
-				$this->Flash->error(__('The testmail could not be saved. Please, try again.'));
-			}
-		} else {
-			$options = array('conditions' => array('Testmail.' . $this->Testmail->primaryKey => $id));
-			$this->request->data = $this->Testmail->find('first', $options);
-		}
-	}
-
-/**
  * delete method
  *
  * @throws NotFoundException

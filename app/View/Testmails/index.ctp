@@ -31,7 +31,6 @@
 		<td><?php echo h($testmail['Testmail']['modified']); ?>&nbsp;</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $testmail['Testmail']['id'])); ?>
-			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $testmail['Testmail']['id'])); ?>
 			<?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $testmail['Testmail']['id']), array('confirm' => __('Are you sure you want to delete # %s?', $testmail['Testmail']['id']))); ?>
 		</td>
 	</tr>
