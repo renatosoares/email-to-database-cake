@@ -1,5 +1,5 @@
 body.fundo{
-	background-image: url("../img/fundo.jpg") ;
+	background-image: url("img/fundo.jpg") ;
 }
 
 header.transparente{
@@ -35,7 +35,7 @@ h1.iconeCentral{
 }
 div.caixaTamanho{
 	height: 205px;
-	
+
 
 }
 .form-control {
