@@ -18,6 +18,7 @@ hr {
 	border-color: #9f0000;
 }
 
+
 /* ###### ICONES ----------------- */
 h1.iconeCentral{
 	font-size: 4em;
@@ -45,7 +46,7 @@ div.caixaTamanho{
 	padding: 6px 12px;
 	font-size: 14px;
 	line-height: 1.42857;
-	color: #000;
+	color: #fff;
 	background-color: rgb(255, 255, 255);
 	background-image: none;
 	border: 1px solid #FFF;
@@ -76,4 +77,5 @@ option {
 	border: medium none;
 	/* padding-right: 58px; */
 }
+
 /* ###### FOOTER ----------------- */

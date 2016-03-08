@@ -25,7 +25,7 @@
 	<?php
 		echo $this->Html->meta('icon');
 
-		echo $this->Html->css(array('bootstrap.min', 'estagio', 'font-awesome.min'));
+		echo $this->Html->css(array('bootstrap.min', 'font-awesome.min', 'estagio'));
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
