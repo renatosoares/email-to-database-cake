@@ -42,8 +42,8 @@
 </head>
 <body class="fundo">
 	<header class="text-center jumbotron transparente">
-		<img src="img/mobister.jpg" alt="">
-		<h1>Gostaria de solitar um orcamento?</h1>
+		<img src="img/mobister.jpg" alt="" style="margin-bottom:85px;">
+		<h1>GOSTARIA DE SOLICITAR UM ORÇAMENTO?</h1>
 		<p>Preencha o formulario abaixo com os seus dados e informacoes sobre o projeto ou servico <br> Em breve, entraremos em contato.</p>
 	</header>
 
@@ -57,8 +57,7 @@
 					<div class="col-md-3 text-center">
 						<h1 class="iconeCentral">
 							<span class="fa-stack fa-lg">
-								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-desktop fa-stack-1x fa-inverse"></i>
+								<i class="fa fa-desktop fa-stack-1x fa-inverse iconefundo"></i>
 							</span>
 						</h1>
 						<h2>WEB</h2>
@@ -68,8 +67,8 @@
 					<div class="col-md-3 text-center">
 						<h1 class="iconeCentral">
 							<span class="fa-stack fa-lg">
-								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-comments fa-stack-1x fa-inverse"></i>
+
+								<i class="fa fa-comments fa-stack-1x fa-inverse iconefundo"></i>
 							</span>
 						</h1>
 						<h2>REDES SOCIAIS</h2>
@@ -79,8 +78,8 @@
 					<div class="col-md-3 text-center">
 						<h1 class="iconeCentral">
 							<span class="fa-stack fa-lg">
-								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-flag fa-stack-1x fa-inverse"></i>
+
+								<i class="fa fa-flag fa-stack-1x fa-inverse iconefundo"></i>
 							</span>
 						</h1>
 						<h2>MARKETING</h2>
@@ -90,8 +89,8 @@
 					<div class="col-md-3 text-center">
 						<h1 class="iconeCentral">
 							<span class="fa-stack fa-lg">
-								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-shopping-basket fa-stack-1x fa-inverse"></i>
+
+								<i class="fa fa-shopping-basket fa-stack-1x fa-inverse iconefundo"></i>
 							</span>
 						</h1>
 						<h2>E-COMMERCE</h2>
@@ -102,8 +101,8 @@
 					<div class="col-md-3 text-center">
 						<h1 class="iconeCentral">
 							<span class="fa-stack fa-lg">
-								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-line-chart fa-stack-1x fa-inverse"></i>
+
+								<i class="fa fa-line-chart fa-stack-1x fa-inverse iconefundo"></i>
 							</span>
 						</h1>
 						<h2>PLANEJAMENTO <br> ESTRATÉGICO</h2>
@@ -113,8 +112,8 @@
 					<div class="col-md-3 text-center">
 						<h1 class="iconeCentral">
 							<span class="fa-stack fa-lg">
-								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-search fa-stack-1x fa-inverse"></i>
+
+								<i class="fa fa-search fa-stack-1x fa-inverse iconefundo"></i>
 							</span>
 						</h1>
 						<h2>SEO E LINKS <br> PATROCINADOS</h2>
@@ -124,8 +123,8 @@
 					<div class="col-md-3 text-center">
 						<h1 class="iconeCentral">
 							<span class="fa-stack fa-lg">
-								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-cogs fa-stack-1x fa-inverse"></i>
+
+								<i class="fa fa-cogs fa-stack-1x fa-inverse iconefundo"></i>
 							</span>
 						</h1>
 						<h2>SISTEMAS WEB BASED</h2>
@@ -135,8 +134,8 @@
 					<div class="col-md-3 text-center">
 						<h1 class="iconeCentral">
 							<span class="fa-stack fa-lg">
-								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-lightbulb-o fa-stack-1x fa-inverse"></i>
+
+								<i class="fa fa-lightbulb-o fa-stack-1x fa-inverse iconefundo"></i>
 							</span>
 						</h1>
 						<h2>O QUE VOCÊ PRECISA</h2>
