@@ -76,4 +76,21 @@ option {
 	border: medium none;
 	/* padding-right: 58px; */
 }
-/* ###### FOOTER ----------------- */
+/* ###### arlets ----------------- */
+
+.alert {
+	padding: 9px 15px;
+	margin-bottom: 20px;
+	border: 1px solid rgb(159, 0, 0);
+	border-radius: 0px;
+
+}
+.alert-danger {
+	color: rgb(159, 0, 0);
+	background-color: #000;
+	border-color: rgb(159, 0, 0);
+}
+.alert-danger div {
+	color: rgb(255, 255, 255);
+	display: inline;
+}

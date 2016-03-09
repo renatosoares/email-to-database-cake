@@ -11,7 +11,9 @@
 				echo $this->Form->input('name', array('class' => 'form-control', 'div' => 'form-group col-md-12', 'placeholder'=>'Nome'));
 				echo $this->Form->input('email', array('class' => 'form-control', 'div' => 'form-group col-md-6', 'placeholder'=>'Email'));
 				echo $this->Form->input('phone', array('class' => 'form-control', 'div' => 'form-group col-md-6', 'placeholder'=>'Telefone'));
-				echo $this->Form->input('specify', array('class' => 'form-control', 'div' => 'form-group col-md-6', 'placeholder'=>'O que você precisa!'));
+				echo $this->Form->input('specify', array('options'=> array(1,2,3,4,5), 'empty'=>'O que você precisa?', 'class' => 'form-control styled-select', 'div' => 'form-group col-md-6'));
+
+
 				echo $this->Form->input('city', array('class' => 'form-control', 'div' => 'form-group col-md-4', 'placeholder'=>'Cidade'));
 				echo $this->Form->input('uf', array('class' => 'form-control', 'div' => 'form-group col-md-2', 'placeholder'=>'UF'));
 
@@ -41,5 +43,10 @@
 	<?php echo $this->Form->end(); ?> <!-- /form-->
 
 </div> <!-- row -->
-
-<?php echo $this->Flash->render('flash', array('class'=>'alert alert-success')); ?>
+<br>
+<br>
+<div class="alert alert-danger text-center" role="alert">
+  <span class="fa fa-exclamation-triangle" aria-hidden="true"></span>
+  &nbsp;
+  <?php echo $this->Flash->render(); ?>
+</div>

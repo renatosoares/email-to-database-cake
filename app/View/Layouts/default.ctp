@@ -158,7 +158,7 @@
 			<div class="col-md-12">&nbsp;</div>
 			<div class="col-md-12">&nbsp;</div>
 			<section class="col-md-12 caixa text-center">
-				<h5>Localizacao</h5>
+				<h3>LOCALIZAÇÃO</h3>
 				<hr>
 
 				<p>Rua Ismael Pereira da Silva, 1535 - Capim Macio - Natal, RN | (84) 3217.2786  •  atendimento@mobister.com.br</p>
