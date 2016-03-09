@@ -16,6 +16,7 @@ p{
 }
 hr {
 	border-color: #9f0000;
+	border: 2px;
 }
 
 /* ###### ICONES ----------------- */
@@ -65,11 +66,9 @@ select {
 	appearance:none;
 }
 option {
-	width: 100%;
-	background-color: rgba(255, 255, 255, 0);
-	color: rgb(162, 162, 162);
-
-	
+		height: 37px;
+		background: #4e4e4e;
+		color: rgb(162, 162, 162);
 }
 
 .styled-select{
@@ -103,3 +102,5 @@ option {
 	color: rgb(255, 255, 255);
 	display: inline;
 }
+
+#form-contacts > div.col-md-6.mobile.padding-left-0.col-xs-12 > div > div:nth-child(5) > div.col-md-4.col-sm-6.col-xs-6.padding-right-0 > div

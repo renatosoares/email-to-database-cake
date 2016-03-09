@@ -46,7 +46,7 @@
 		<h1>Gostaria de solitar um orcamento?</h1>
 		<p>Preencha o formulario abaixo com os seus dados e informacoes sobre o projeto ou servico <br> Em breve, entraremos em contato.</p>
 	</header>
-	<hr>
+	<hr style="margin-top: -28px;">
 	<main class="container">
 		<article class="row">
 			<section class="col-md-12">
