@@ -46,7 +46,10 @@
 		<h1>Gostaria de solitar um orcamento?</h1>
 		<p>Preencha o formulario abaixo com os seus dados e informacoes sobre o projeto ou servico <br> Em breve, entraremos em contato.</p>
 	</header>
-	<hr style="margin-top: -28px;">
+
+			<hr  class="container" style="margin-top: -32px; border: 2px solid; border-color: #9f0000;">
+
+
 	<main class="container">
 		<article class="row">
 			<section class="col-md-12">
@@ -55,7 +58,7 @@
 						<h1 class="iconeCentral">
 							<span class="fa-stack fa-lg">
 								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-flag fa-stack-1x fa-inverse"></i>
+								<i class="fa fa-desktop fa-stack-1x fa-inverse"></i>
 							</span>
 						</h1>
 						<h2>WEB</h2>
@@ -66,21 +69,10 @@
 						<h1 class="iconeCentral">
 							<span class="fa-stack fa-lg">
 								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-bolt fa-stack-1x fa-inverse"></i>
+								<i class="fa fa-comments fa-stack-1x fa-inverse"></i>
 							</span>
 						</h1>
-						<h2>WEB</h2>
-						<hr class="hrIcone">
-						<p>Pense em um site. Pensou? Agora esqueça o que sabe e aceite o nosso convite. A Mobister quer te mostrar  que qualidade e inovação andam lado a lado. </p>
-					</div> <!-- /icone -->
-					<div class="col-md-3 text-center">
-						<h1 class="iconeCentral">
-							<span class="fa-stack fa-lg">
-								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-area-chart fa-stack-1x fa-inverse"></i>
-							</span>
-						</h1>
-						<h2>WEB</h2>
+						<h2>REDES SOCIAIS</h2>
 						<hr class="hrIcone">
 						<p>Pense em um site. Pensou? Agora esqueça o que sabe e aceite o nosso convite. A Mobister quer te mostrar  que qualidade e inovação andam lado a lado. </p>
 					</div> <!-- /icone -->
@@ -91,7 +83,18 @@
 								<i class="fa fa-flag fa-stack-1x fa-inverse"></i>
 							</span>
 						</h1>
-						<h2>WEB</h2>
+						<h2>MARKETING</h2>
+						<hr class="hrIcone">
+						<p>Pense em um site. Pensou? Agora esqueça o que sabe e aceite o nosso convite. A Mobister quer te mostrar  que qualidade e inovação andam lado a lado. </p>
+					</div> <!-- /icone -->
+					<div class="col-md-3 text-center">
+						<h1 class="iconeCentral">
+							<span class="fa-stack fa-lg">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-shopping-basket fa-stack-1x fa-inverse"></i>
+							</span>
+						</h1>
+						<h2>E-COMMERCE</h2>
 						<hr class="hrIcone">
 						<p>Pense em um site. Pensou? Agora esqueça o que sabe e aceite o nosso convite. A Mobister quer te mostrar  que qualidade e inovação andam lado a lado. </p>
 					</div> <!-- /icone -->
@@ -100,10 +103,10 @@
 						<h1 class="iconeCentral">
 							<span class="fa-stack fa-lg">
 								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-commenting fa-stack-1x fa-inverse"></i>
+								<i class="fa fa-line-chart fa-stack-1x fa-inverse"></i>
 							</span>
 						</h1>
-						<h2>WEB</h2>
+						<h2>PLANEJAMENTO <br> ESTRATÉGICO</h2>
 						<hr class="hrIcone">
 						<p>Pense em um site. Pensou? Agora esqueça o que sabe e aceite o nosso convite. A Mobister quer te mostrar  que qualidade e inovação andam lado a lado. </p>
 					</div> <!-- /icone -->
@@ -111,10 +114,10 @@
 						<h1 class="iconeCentral">
 							<span class="fa-stack fa-lg">
 								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-credit-card-alt fa-stack-1x fa-inverse"></i>
+								<i class="fa fa-search fa-stack-1x fa-inverse"></i>
 							</span>
 						</h1>
-						<h2>WEB</h2>
+						<h2>SEO E LINKS <br> PATROCINADOS</h2>
 						<hr class="hrIcone">
 						<p>Pense em um site. Pensou? Agora esqueça o que sabe e aceite o nosso convite. A Mobister quer te mostrar  que qualidade e inovação andam lado a lado. </p>
 					</div> <!-- /icone -->
@@ -122,10 +125,10 @@
 						<h1 class="iconeCentral">
 							<span class="fa-stack fa-lg">
 								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-cubes fa-stack-1x fa-inverse"></i>
+								<i class="fa fa-cogs fa-stack-1x fa-inverse"></i>
 							</span>
 						</h1>
-						<h2>WEB</h2>
+						<h2>SISTEMAS WEB BASED</h2>
 						<hr class="hrIcone">
 						<p>Pense em um site. Pensou? Agora esqueça o que sabe e aceite o nosso convite. A Mobister quer te mostrar  que qualidade e inovação andam lado a lado. </p>
 					</div> <!-- /icone -->
@@ -133,10 +136,10 @@
 						<h1 class="iconeCentral">
 							<span class="fa-stack fa-lg">
 								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-desktop fa-stack-1x fa-inverse"></i>
+								<i class="fa fa-lightbulb-o fa-stack-1x fa-inverse"></i>
 							</span>
 						</h1>
-						<h2>WEB</h2>
+						<h2>O QUE VOCÊ PRECISA</h2>
 						<hr class="hrIcone">
 						<p>Pense em um site. Pensou? Agora esqueça o que sabe e aceite o nosso convite. A Mobister quer te mostrar  que qualidade e inovação andam lado a lado. </p>
 					</div> <!-- /icone -->
