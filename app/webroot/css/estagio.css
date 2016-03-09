@@ -60,14 +60,23 @@ select {
 	color: rgb(162, 162, 162);
 	border: 1px solid #FFF;
 	padding:0px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance:none;
 }
 option {
 	width: 100%;
-	background-color: rgba(0, 0, 0, 0.075);
+	background-color: rgba(255, 255, 255, 0);
 	color: rgb(162, 162, 162);
-	border: 1px solid #FFF;
-	padding:5px;
+
+	
 }
+
+.styled-select{
+	background: url("../img/arrowup.png") no-repeat right ;
+	background-position: 217px 11px;
+}
+
 .buttonCustom {
 	border-radius: 0px;
 	padding: 12px 58px 12px 12px;

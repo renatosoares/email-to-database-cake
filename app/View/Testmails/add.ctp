@@ -11,7 +11,7 @@
 				echo $this->Form->input('name', array('class' => 'form-control', 'div' => 'form-group col-md-12', 'placeholder'=>'Nome'));
 				echo $this->Form->input('email', array('class' => 'form-control', 'div' => 'form-group col-md-6', 'placeholder'=>'Email'));
 				echo $this->Form->input('phone', array('class' => 'form-control', 'div' => 'form-group col-md-6', 'placeholder'=>'Telefone'));
-				echo $this->Form->input('specify', array('options'=> array(1,2,3,4,5), 'empty'=>'O que você precisa?', 'class' => 'form-control styled-select', 'div' => 'form-group col-md-6'));
+				echo $this->Form->input('specify', array('options'=> array('website'=>'Website ','redesociais'=>'Redes sociais','marketingpolitico'=>'Marketing Político','ecommerce'=>'E-Commerce','planejamento'=>'Planejamento estratégico', 'seo'=>'SEO e SEM', 'sistemas'=>'Sistemas Web Based'), 'empty'=>'O que você precisa?', 'class' => 'form-control styled-select', 'div' => 'form-group col-md-6'));
 
 
 				echo $this->Form->input('city', array('class' => 'form-control', 'div' => 'form-group col-md-4', 'placeholder'=>'Cidade'));
