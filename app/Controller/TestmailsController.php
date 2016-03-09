@@ -49,10 +49,10 @@ class TestmailsController extends AppController {
 		if ($this->request->is('post')) {
 			$this->Testmail->create();
 			if ($this->Testmail->save($this->request->data)) {
-				$this->Flash->success(__('The testmail has been saved.'));
-				return $this->redirect(array('action' => 'index'));
+				$this->Flash->success(__('Seu email foi enviado.'), array('div'=>'alert alert-success'));
+				return $this->redirect(array('action' => 'add#formcontato'));
 			} else {
-				$this->Flash->error(__('The testmail could not be saved. Please, try again.'));
+				$this->Flash->error(__('Seu email não foi enviado, tente novamente ou envie um email para teste@m.com.br .'));
 			}
 		}
 	}

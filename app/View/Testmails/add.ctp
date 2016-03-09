@@ -1,7 +1,7 @@
 	<h3><?php //echo $this->Html->link(__('Listar de emails recebidos'), array('action' => 'index')); ?></h3>
 
 
-<div class="row">
+<div class="row" id="formcontato">
 	<?php echo $this->Form->create('Testmail', array('role' => 'form', 'inputDefaults' => array('label'=>false))); ?>
 	<div class="col-md-6">
 		<div class="caixa caixaTamanho">
@@ -39,4 +39,7 @@
 		</div> <!-- /caixaTamanho -->
 	</div> <!-- col-md-6 -->
 	<?php echo $this->Form->end(); ?> <!-- /form-->
+
 </div> <!-- row -->
+
+<?php echo $this->Flash->render('flash', array('class'=>'alert alert-success')); ?>
