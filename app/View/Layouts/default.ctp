@@ -46,10 +46,7 @@
 		<h1>GOSTARIA DE SOLICITAR UM ORÇAMENTO?</h1>
 		<p>Preencha o formulario abaixo com os seus dados e informacoes sobre o projeto ou servico <br> Em breve, entraremos em contato.</p>
 	</header>
-
-			<hr  class="container" style="margin-top: -32px; border: 2px solid; border-color: #9f0000;">
-
-
+	<hr  class="container" style="margin-top: -32px; border: 2px solid; border-color: #9f0000;">
 	<main class="container">
 		<article class="row">
 			<section class="col-md-12">
@@ -167,10 +164,14 @@
 			</section>
 		</article>  <!-- /row principal -->
 	</main>
-	<hr>
+
 	<footer class="text-center">
+
+		<img src="img/social.png" alt="" />
 		<hr>
-		Copyright Mobister 2016. Todos os direitos reservados.
+		<p>
+			Copyright Mobister 2016. Todos os direitos reservados.
+		</p>
 	</footer>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<?php echo $this->Html->script(array('bootstrap.min','jquery.min' )); ?>

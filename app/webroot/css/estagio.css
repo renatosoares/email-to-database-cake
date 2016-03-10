@@ -19,7 +19,6 @@ p{
 }
 hr {
 	border-color: #9f0000;
-	border: 2px;
 }
 
 /* ###### ICONES ----------------- */
@@ -27,7 +26,7 @@ h1.iconeCentral{
 	font-size: 4em;
 }
 .hrIcone{
-	border: 1px solid rgb(159, 0, 3);
+	border: 2px solid rgb(159, 0, 3);
 	width: 52px;
 
 }
@@ -108,4 +107,16 @@ option {
 .alert-danger div {
 	color: rgb(255, 255, 255);
 	display: inline;
+}
+
+/* ###### footer ----------------- */
+footer {
+	margin-top: 38px;
+}
+footer > hr{
+	width: 72%;
+	border:1px solid #fff;
+}
+footer > p {
+	color: #fff;
 }
