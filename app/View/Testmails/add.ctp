@@ -28,11 +28,11 @@
 
 
 			<fieldset class="row">
-				<div class="form-group col-md-12 text-right">
+				<div class="form-group col-md-12 text-left">
 					<?php echo $this->Form->input('message', array('rows'=>'3','class' => 'form-control', 'div' => false, 'placeholder'=>'Mensagem')); ?>
 
 					<br>
-					<?php echo $this->Form->submit('Enviar', array('class'=>'btn btn-default buttonCustom', 'div'=>false)); ?>
+					<?php echo $this->Form->submit('ENVIAR', array('class'=>'btn btn-default buttonCustom', 'div'=>false)); ?>
 				</div>
 
 			</fieldset> <!-- /row  -->

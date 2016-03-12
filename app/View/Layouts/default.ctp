@@ -43,7 +43,7 @@
 <body class="fundo">
 	<header class="text-center jumbotron transparente">
 		<img src="img/mobister.jpg" alt="" style="margin-bottom:85px;">
-		<h1>GOSTARIA DE SOLICITAR UM ORÇAMENTO?</h1>
+		<h1 style="font-size: 4.18em;">GOSTARIA DE SOLICITAR UM ORÇAMENTO?</h1>
 		<p>Preencha o formulario abaixo com os seus dados e informacoes sobre o projeto ou servico <br> Em breve, entraremos em contato.</p>
 	</header>
 	<hr  class="container" style="margin-top: -32px; border: 2px solid; border-color: #9f0000;">
@@ -156,8 +156,8 @@
 
 			<div class="col-md-12">&nbsp;</div>
 			<div class="col-md-12">&nbsp;</div>
-			<section class="col-md-12 caixa text-center">
-				<h3>LOCALIZAÇÃO</h3>
+			<section class="col-md-12 caixa text-center section3" title="s3">
+				<h2>LOCALIZAÇÃO</h2>
 				<hr class="hrIcone" >
 
 				<p>Rua Ismael Pereira da Silva, 1535 - Capim Macio - Natal, RN | (84) 3217.2786  •  atendimento@mobister.com.br</p>
