@@ -25,7 +25,7 @@
 	<?php
 		echo $this->Html->meta('icon');
 
-		echo $this->Html->css(array('bootstrap.min', 'font-awesome.min', 'estagio'));
+		echo $this->Html->css(array('bootstrap.min', 'font-awesome.min', 'estagio', 'animate'));
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
@@ -40,10 +40,10 @@
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
 </head>
-<body class="fundo">
+<body class="fundo" >
 	<header class="text-center jumbotron transparente">
-		<img src="img/mobister.jpg" alt="" style="margin-bottom:85px;">
-		<h1 style="font-size: 4.18em;">GOSTARIA DE SOLICITAR UM ORÇAMENTO?</h1>
+		<img src="img/mobister.jpg" alt="" style="margin-bottom:85px;" class="animated bounce">
+		<h1 style="font-size: 4.18em;" >GOSTARIA DE SOLICITAR UM ORÇAMENTO?</h1>
 		<p>Preencha o formulario abaixo com os seus dados e informacoes sobre o projeto ou servico <br> Em breve, entraremos em contato.</p>
 	</header>
 	<hr  class="container" style="margin-top: -32px; border: 2px solid; border-color: #9f0000;">
@@ -51,7 +51,7 @@
 		<article class="row">
 			<section class="col-md-12">
 				<div class="row"> <!-- row dos icones -->
-					<div class="col-md-3 text-center">
+					<div class="col-md-3 text-center animated bounceInLeft">
 						<h1 class="iconeCentral">
 							<span class="fa-stack fa-lg">
 								<i class="fa fa-desktop fa-stack-1x fa-inverse iconefundo"></i>
@@ -61,7 +61,7 @@
 						<hr class="hrIcone" >
 						<p>Pense em um site. Pensou? Agora esqueça o que sabe e aceite o nosso convite. A Mobister quer te mostrar  que qualidade e inovação andam lado a lado. </p>
 					</div> <!-- /icone -->
-					<div class="col-md-3 text-center">
+					<div class="col-md-3 text-center animated bounceInDown">
 						<h1 class="iconeCentral">
 							<span class="fa-stack fa-lg">
 
@@ -72,7 +72,7 @@
 						<hr class="hrIcone">
 						<p>Pense em um site. Pensou? Agora esqueça o que sabe e aceite o nosso convite. A Mobister quer te mostrar  que qualidade e inovação andam lado a lado. </p>
 					</div> <!-- /icone -->
-					<div class="col-md-3 text-center">
+					<div class="col-md-3 text-center animated bounceInUp">
 						<h1 class="iconeCentral">
 							<span class="fa-stack fa-lg">
 
@@ -83,7 +83,7 @@
 						<hr class="hrIcone">
 						<p>Pense em um site. Pensou? Agora esqueça o que sabe e aceite o nosso convite. A Mobister quer te mostrar  que qualidade e inovação andam lado a lado. </p>
 					</div> <!-- /icone -->
-					<div class="col-md-3 text-center">
+					<div class="col-md-3 text-center animated bounceInLeft">
 						<h1 class="iconeCentral">
 							<span class="fa-stack fa-lg">
 
@@ -95,7 +95,7 @@
 						<p>Pense em um site. Pensou? Agora esqueça o que sabe e aceite o nosso convite. A Mobister quer te mostrar  que qualidade e inovação andam lado a lado. </p>
 					</div> <!-- /icone -->
 					<!-- ##################### /final da linha de icones ################## -->
-					<div class="col-md-3 text-center">
+					<div class="col-md-3 text-center animated bounceInLeft">
 						<h1 class="iconeCentral">
 							<span class="fa-stack fa-lg">
 
@@ -106,7 +106,7 @@
 						<hr class="hrIcone">
 						<p>Pense em um site. Pensou? Agora esqueça o que sabe e aceite o nosso convite. A Mobister quer te mostrar  que qualidade e inovação andam lado a lado. </p>
 					</div> <!-- /icone -->
-					<div class="col-md-3 text-center">
+					<div class="col-md-3 text-center animated bounceInUp">
 						<h1 class="iconeCentral">
 							<span class="fa-stack fa-lg">
 
@@ -117,7 +117,7 @@
 						<hr class="hrIcone">
 						<p>Pense em um site. Pensou? Agora esqueça o que sabe e aceite o nosso convite. A Mobister quer te mostrar  que qualidade e inovação andam lado a lado. </p>
 					</div> <!-- /icone -->
-					<div class="col-md-3 text-center">
+					<div class="col-md-3 text-center animated bounceInDown">
 						<h1 class="iconeCentral">
 							<span class="fa-stack fa-lg">
 
@@ -128,7 +128,7 @@
 						<hr class="hrIcone">
 						<p>Pense em um site. Pensou? Agora esqueça o que sabe e aceite o nosso convite. A Mobister quer te mostrar  que qualidade e inovação andam lado a lado. </p>
 					</div> <!-- /icone -->
-					<div class="col-md-3 text-center">
+					<div class="col-md-3 text-center animated bounceInLeft">
 						<h1 class="iconeCentral">
 							<span class="fa-stack fa-lg">
 
@@ -174,6 +174,6 @@
 		</p>
 	</footer>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<?php echo $this->Html->script(array('bootstrap.min','jquery.min' )); ?>
+	<?php echo $this->Html->script(array('jquery.min', 'bootstrap.min', 'wow' )); ?>
 </body>
 </html>

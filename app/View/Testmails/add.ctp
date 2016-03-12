@@ -46,8 +46,21 @@
 </div> <!-- row -->
 <br>
 <br>
-<div class="alert alert-danger text-center" role="alert">
+<div class="alert alert-danger text-center" id="alertaMensagem" role="alert" >
   <span class="fa fa-exclamation-triangle" aria-hidden="true"></span>
   &nbsp;
   <?php echo $this->Flash->render(); ?>
+	 <!-- <div id="flashMessage" class="message error">Seu email não foi enviado, tente novamente ou envie um email para teste@m.com.br .</div> -->
 </div>
+
+<script type="text/javascript">
+	document.getElementById("alertaMensagem").onload = function() {alertaMensagem()};
+	function alertaMensagem(){
+		var msgem = document.getElementById('flashMessage').getAttribute("id");
+		if (msgem == "flashMessage") {
+			document.getElementById("alertaMensagem").setAttribute("class", "alert alert-danger text-center");
+		} else {
+				document.getElementById("alertaMensagem").setAttribute("class", "alert alert-danger text-center hidden");
+		}
+	}
+</script>
